@@ -1,0 +1,9 @@
+.about-me {
+  height: 100vh;
+}
+
+.about-me h2 {
+  text-align: center;
+  font-family: "night_in_tokyoregular";
+  font-size: 58px;
+}

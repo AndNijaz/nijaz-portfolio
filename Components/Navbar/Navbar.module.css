@@ -1,0 +1,20 @@
+.main-navbar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.main-navbar img {
+  width: 15%;
+  height: auto;
+}
+
+.main-navbar a {
+  color: white;
+  text-decoration: none;
+}
