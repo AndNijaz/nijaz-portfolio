@@ -1,6 +1,7 @@
 import classes from "./AboutMe.module.css";
-
+import NijazAndelicPicture from "../../assets/NijazAndelicPicture.svg";
 import React from "react";
+import LineDetail from "../UI/LineDetail";
 
 const AboutMe = () => {
   return (
@@ -9,13 +10,10 @@ const AboutMe = () => {
 
       <h2>ABOUT ME</h2>
       <p>Why Choose Me?</p>
-      <div className={classes["detail"]}>
-        <div className={classes["detail__line"]} />
-        <div className={classes["detail__rose"]} />
-      </div>
+      <LineDetail />
       <div className={classes["about-me__card"]}>
         <div className={classes["about-me__card-img-holder"]}>
-          <img src="#" alt="Personal picture" />
+          <img src={NijazAndelicPicture.src} alt="Personal picture" />
         </div>
         <div className={classes["about-me__text"]}>
           <p>
@@ -28,7 +26,7 @@ const AboutMe = () => {
           </p>
           <div className={classes["about-me__highlights"]}>
             <h3>Here are a Few Highlights:</h3>
-            <un>
+            <ul>
               <li>Junior level programming skills in ReactJS and NextJS </li>
               <li>Advanced programming skills in JavaScript </li>
               <li>Excelent coding skills in HTML5, CSS3</li>
@@ -37,7 +35,7 @@ const AboutMe = () => {
                 Good programming skills and expecience in C# (Software apps){" "}
               </li>
               <li>Good designing taste</li>
-            </un>
+            </ul>
             <button type="button">Get resume</button>
           </div>
         </div>

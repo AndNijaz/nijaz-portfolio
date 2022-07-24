@@ -1,9 +1,100 @@
 .about-me {
-  height: 100vh;
+  height: 105vh;
+  margin-top: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-me h2 {
-  text-align: center;
   font-family: "night_in_tokyoregular";
   font-size: 58px;
+}
+
+.about-me > p {
+  font-size: 1.5vw;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.about-me__card {
+  height: 70vh;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.about-me__card-img-holder {
+  width: 160%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.about-me__card-img-holder img {
+  width: 100%;
+}
+
+.about-me__text {
+  background-color: white;
+  width: 250%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 5vh;
+  padding-bottom: 2.5vh;
+}
+
+.about-me__text p {
+  margin: 0px 25px;
+  /* width: 90%; */
+  font-size: 2.4vh;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 150%;
+}
+
+.about-me__highlights {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me__highlights h3 {
+  margin-top: 2.5%;
+  font-size: 5vh;
+  font-weight: 900;
+}
+
+.about-me__highlights ul {
+}
+
+.about-me__highlights ul li {
+  font-weight: 700;
+  margin: 10px 3%;
+  list-style: none;
+  font-size: 2.5vh;
+}
+
+.about-me__highlights ul li::before {
+  content: "\2022";
+  color: var(--rose-pink);
+  /* color: red; */
+  font-weight: 900;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.about-me__highlights button {
+  border: 0px;
+  background-color: var(--rose-pink);
+  border-radius: 15px;
+  width: 25%;
+  margin-top: 1%;
+  padding: 2%;
+  color: white;
+  font-weight: 700;
+  align-self: center;
 }

@@ -5,6 +5,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import { Fragment } from "react";
 import MainPage from "../Components/MainPage/MainPage";
 import AboutMe from "../Components/AboutMe/AboutMe";
+import Resume from "../Components/Resume/Resume";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <MainPage />
       <Navbar />
       <AboutMe />
+      <Resume />
     </Fragment>
   );
 }

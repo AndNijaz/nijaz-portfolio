@@ -6,7 +6,7 @@ import Typical from "react-typical";
 const MainPage = () => {
   return (
     <main className={classes["main-page"]}>
-      <img src={background.src} />
+      {/* <img src={background.src} /> */}
       <div className={classes["main-page__blur"]}></div>
       <div className={classes["main-page__label"]}>
         <h1>NIJAZ</h1>
